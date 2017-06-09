@@ -123,6 +123,6 @@
     ],
     "pageInfo":{
         "nextPageUrl": "/comment?post-id=3&start-id=20&page-size=10",
-        "prevPageUrl": "/comment?post-id=3&start-id=0&page-size=10"
+        "previousPageUrl": "/comment?post-id=3&start-id=0&page-size=10"
     }
 }
