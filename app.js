@@ -33,6 +33,13 @@ app.get('/comment', function(req, res, next) {
   res.send(JSON.stringify(comment));
 });
 
+app.get('/feed', function(req, res, next) {
+  res.setHeader('Content-Type', 'application/json');
+  // var userId = req.param.userId;
+
+  res.send(JSON.stringify(feed));
+});
+
 var port = process.env.PORT || 3000;
 app.listen(port);
 console.log('Sample app is listening on port ' + port);
