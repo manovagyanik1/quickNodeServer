@@ -152,7 +152,7 @@
     }
     ],
     "pageInfo":{
-        "nextPageUrl": "/comment?post-id=3&start-id=20&page-size=10",
-        "previousPageUrl": "/comment?post-id=3&start-id=0&page-size=10"
+        "nextPageUrl": "/feed?post-id=3&start-id=20&page-size=10",
+        "previousPageUrl": "/feed?post-id=3&start-id=0&page-size=10"
     }
 }
