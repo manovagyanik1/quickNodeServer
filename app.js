@@ -3,6 +3,7 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var request = require('request');
 var comment = require('./json/comment.json');
+var feed = require('./json/feed.json');
 
 var app = express();
 // view engine setup
