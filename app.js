@@ -27,14 +27,14 @@ app.get('/test', function(req, res){
   res.sendFile(path.join(__dirname , '/test.html'));
 });
 
-app.get('/comment', function(req, res, next) {
+app.get('/v1/comment', function(req, res, next) {
   res.setHeader('Content-Type', 'application/json');
   // var userId = req.param.userId;
 
   res.send(JSON.stringify(comment));
 });
 
-app.get('/feed', function(req, res, next) {
+app.get('/v1/feed', function(req, res, next) {
   res.setHeader('Content-Type', 'application/json');
   // var userId = req.param.userId;
 
