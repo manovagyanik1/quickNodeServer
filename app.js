@@ -27,7 +27,7 @@ app.get('/test', function(req, res){
   res.sendFile(path.join(__dirname , '/test.html'));
 });
 
-app.get('/v1/comment', function(req, res, next) {
+app.get('/v1/comments', function(req, res, next) {
   res.setHeader('Content-Type', 'application/json');
   // var userId = req.param.userId;
 
