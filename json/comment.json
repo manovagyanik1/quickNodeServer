@@ -1,86 +1,44 @@
 {
-    "items":[
-        {
-            "id": 34,
-            "text": "Worst joke ever read till date. It is a long established fact that a reader will be distracted by the readable content of a page.",
-            "numberOfLikes": 143,
-            "numberOfReplies": 30,
-            "timestamp": 1496999506452,
-            "likedByUser": "true",
-            "profile": {
-                "id": 13,
-                "name": "shubham agrawal",
-                "photoUrl": "https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-1/p160x160/16999100_1329600697105317_4214138079828744579_n.jpg?oh=1b4c2bada7ca35747632b337c1e06283&oe=59D545A6"
-            }
-        },
-         {
-            "id": 34,
-            "text": "Worst joke ever read till date. It is a long established fact that a reader will be distracted by the readable content of a page.",
-            "numberOfLikes": 143,
-            "numberOfReplies": 30,
-            "timestamp": 1496999506452,
-            "likedByUser": "false",
-            "profile": {
-                "id": 13,
-                "name": "shubham agrawal",
-                "photoUrl": "https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-1/p160x160/16999100_1329600697105317_4214138079828744579_n.jpg?oh=1b4c2bada7ca35747632b337c1e06283&oe=59D545A6"
-            }
-        },
-         {
-            "id": 34,
-            "text": "Worst joke ever read till date. It is a long established fact that a reader will be distracted by the readable content of a page.",
-            "numberOfLikes": 143,
-            "numberOfReplies": 30,
-            "timestamp": 1496999506452,
-            "likedByUser": "false",
-            "profile": {
-                "id": 13,
-                "name": "shubham agrawal",
-                "photoUrl": "https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-1/p160x160/16999100_1329600697105317_4214138079828744579_n.jpg?oh=1b4c2bada7ca35747632b337c1e06283&oe=59D545A6"
-            }
-        },
-         {
-            "id": 34,
-            "text": "Worst joke ever read till date. It is a long established fact that a reader will be distracted by the readable content of a page.",
-            "numberOfLikes": 143,
-            "numberOfReplies": 30,
-            "timestamp": 1496999506452,
-            "likedByUser": "true",
-            "profile": {
-                "id": 13,
-                "name": "shubham agrawal",
-                "photoUrl": "https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-1/p160x160/16999100_1329600697105317_4214138079828744579_n.jpg?oh=1b4c2bada7ca35747632b337c1e06283&oe=59D545A6"
-            }
-        },
-         {
-            "id": 34,
-            "text": "Worst joke ever read till date. It is a long established fact that a reader will be distracted by the readable content of a page.",
-            "numberOfLikes": 143,
-            "numberOfReplies": 30,
-            "timestamp": 1496999506452,
-            "likedByUser": "false",
-            "profile": {
-                "id": 13,
-                "name": "shubham agrawal",
-                "photoUrl": "https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-1/p160x160/16999100_1329600697105317_4214138079828744579_n.jpg?oh=1b4c2bada7ca35747632b337c1e06283&oe=59D545A6"
-            }
-        },
-         {
-            "id": 34,
-            "text": "Worst joke ever read till date. It is a long established fact that a reader will be distracted by the readable content of a page.",
-            "numberOfLikes": 143,
-            "numberOfReplies": 30,
-            "timestamp": 1496999506452,
-            "likedByUser": "true",
-            "profile": {
-                "id": 13,
-                "name": "shubham agrawal",
-                "photoUrl": "https://scontent.fblr1-1.fna.fbcdn.net/v/t1.0-1/p160x160/16999100_1329600697105317_4214138079828744579_n.jpg?oh=1b4c2bada7ca35747632b337c1e06283&oe=59D545A6"
-            }
-        }
-    ],
-    "pageInfo":{
-        "nextPageUrl": "/comment?post-id=3&start-id=20&page-size=10",
-        "previousPageUrl": "/comment?post-id=3&start-id=0&page-size=10"
+  "results": [
+    {
+      "_id": "595d27f0632789690c375b3f",
+      "updatedAt": "2017-07-05T17:54:56.722Z",
+      "createdAt": "2017-07-05T17:54:56.722Z",
+      "text": "sample 3",
+      "postId": "5957cab07c280c374153bd6c",
+      "userId": "595d27a9158fc15a8a080b69",
+      "displayName": "Ranjith Somasundaram",
+      "__v": 0,
+      "currentUserReaction": "LOL"
+    },
+    {
+      "_id": "595d27eb632789690c375b3e",
+      "updatedAt": "2017-07-05T17:54:51.958Z",
+      "createdAt": "2017-07-05T17:54:51.958Z",
+      "text": "sample 2",
+      "postId": "5957cab07c280c374153bd6c",
+      "userId": "595d27a9158fc15a8a080b69",
+      "displayName": "Ranjith Somasundaram",
+      "__v": 0,
+      "currentUserReaction": null
+    },
+    {
+      "_id": "595d27e7632789690c375b3d",
+      "updatedAt": "2017-07-05T17:54:47.440Z",
+      "createdAt": "2017-07-05T17:54:47.440Z",
+      "text": "sample 1",
+      "postId": "5957cab07c280c374153bd6c",
+      "userId": "595d27a9158fc15a8a080b69",
+      "displayName": "Ranjith Somasundaram",
+      "__v": 0,
+      "currentUserReaction": null
     }
+  ],
+  "pageInfo": {
+    "nextPageUrl": "/v1/comments/5957cab07c280c374153bd6c?beforeTimeStamp=Wed Jul 05 2017 23:24:47 GMT+0530 (IST)",
+    "previousPageUrl": "/v1/comments/5957cab07c280c374153bd6c?afterTimeStamp=Wed Jul 05 2017 23:24:56 GMT+0530 (IST)"
+  },
+  "meta": {
+    "ts": "2017-07-08T14:57:19.492Z"
+  }
 }
