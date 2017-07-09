@@ -43,12 +43,12 @@ app.get('/v1/feed', function(req, res, next) {
   res.send(JSON.stringify(feed));
 });
 
-app.post('v1/user-reaction', function(req, res, next) {
+app.post('/v1/user-reaction', function(req, res, next) {
   res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify(userReactionPost));
 });
 
-app.delete('v1/user-reaction', function(req, res, next) {
+app.delete('/v1/user-reaction', function(req, res, next) {
   res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify(userReactionDelete));
 });
