@@ -4,6 +4,8 @@ var bodyParser = require('body-parser');
 var request = require('request');
 var comment = require('./json/comment.json');
 var feed = require('./json/feed.json');
+var userReactionPost = require('./json/userReactionPost.json');
+var userReactionDelete = require('./json/userReactionDelete.json');
 
 var app = express();
 // view engine setup
@@ -39,6 +41,16 @@ app.get('/v1/feed', function(req, res, next) {
   // var userId = req.param.userId;
 
   res.send(JSON.stringify(feed));
+});
+
+app.post('v1/user-reaction', function(req, res, next) {
+  res.setHeader('Content-Type', 'application/json');
+  res.send(JSON.stringify(userReactionPost));
+});
+
+app.delete('v1/user-reaction', function(req, res, next) {
+  res.setHeader('Content-Type', 'application/json');
+  res.send(JSON.stringify(userReactionDelete));
 });
 
 var port = process.env.PORT || 3000;
