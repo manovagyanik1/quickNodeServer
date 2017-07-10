@@ -37,6 +37,13 @@ app.get('/v1/comments', function(req, res, next) {
   res.send(JSON.stringify(comments));
 });
 
+app.get('/v1/comments/{postId}', function(req, res, next) {
+  res.setHeader('Content-Type', 'application/json');
+  // var userId = req.param.userId;
+
+  res.send(JSON.stringify(comments));
+});
+
 app.get('/v1/feed', function(req, res, next) {
   res.setHeader('Content-Type', 'application/json');
   // var userId = req.param.userId;
