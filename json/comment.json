@@ -1,74 +1,21 @@
-{
-  "results": [
-    {
-      "_id": "595d27f0632789690c375b3f",
-      "updatedAt": "2017-07-05T17:54:56.722Z",
-      "createdAt": "2017-07-05T17:54:56.722Z",
-      "text": "3. Worst joke ever read till date. It is a long established fact that a reader will be distracted by the readable content of a page.",
-      "postId": "5957cab07c280c374153bd6c",
-      "user": {
-        "_id": "595d27a9158fc15a8a080b69",
-        "displayName": "Ranjith Somasundaram",
-        "imageUrl": "https://scontent.fblr1-1.fna.fbcdn.net/v/t31.0-8/17038928_1329600697105317_4214138079828744579_o.jpg?oh=dab1aa1d00023dec1726456626247074&oe=59C5F0CA"
-      },
-      "userReaction": {
-        "LOL": 0,
-        "HAHA": 0,
-        "CLAP": 0,
-        "WOW": 0,
-        "LIKE": 3
-      },
-      "__v": 0,
-      "currentUserReaction": "LOL"
+  {
+    "_id": "595d27f0632789690c375b3f",
+    "updatedAt": "2017-07-05T17:54:56.722Z",
+    "createdAt": "2017-07-05T17:54:56.722Z",
+    "text": "3. Worst joke ever read till date. It is a long established fact that a reader will be distracted by the readable content of a page.",
+    "postId": "5957cab07c280c374153bd6c",
+    "user": {
+      "_id": "595d27a9158fc15a8a080b69",
+      "displayName": "Ranjith Somasundaram",
+      "imageUrl": "https://scontent.fblr1-1.fna.fbcdn.net/v/t31.0-8/17038928_1329600697105317_4214138079828744579_o.jpg?oh=dab1aa1d00023dec1726456626247074&oe=59C5F0CA"
     },
-    {
-      "_id": "595d27eb632789690c375b3e",
-      "updatedAt": "2017-07-05T17:54:51.958Z",
-      "createdAt": "2017-07-05T17:54:51.958Z",
-      "text": "2. Worst joke ever read till date. It is a long established fact that a reader will be distracted by the readable content of a page.",
-      "postId": "5957cab07c280c374153bd6c",
-      "user": {
-        "_id": "595d27a9158fc15a8a080b69",
-        "displayName": "Ranjith Somasundaram",
-        "imageUrl": "https://scontent.fblr1-1.fna.fbcdn.net/v/t31.0-8/17038928_1329600697105317_4214138079828744579_o.jpg?oh=dab1aa1d00023dec1726456626247074&oe=59C5F0CA"
-      },
-      "userReaction": {
-        "LOL": 0,
-        "HAHA": 0,
-        "CLAP": 0,
-        "WOW": 0,
-        "LIKE": 3
-      },
-      "__v": 0,
-      "currentUserReaction": null
+    "userReaction": {
+      "LOL": 0,
+      "HAHA": 0,
+      "CLAP": 0,
+      "WOW": 0,
+      "LIKE": 3
     },
-    {
-      "_id": "595d27e7632789690c375b3d",
-      "updatedAt": "2017-07-05T17:54:47.440Z",
-      "createdAt": "2017-07-05T17:54:47.440Z",
-      "text": "1. Worst joke ever read till date. It is a long established fact that a reader will be distracted by the readable content of a page.",
-      "postId": "5957cab07c280c374153bd6c",
-      "user": {
-        "_id": "595d27a9158fc15a8a080b69",
-        "displayName": "Ranjith Somasundaram",
-        "imageUrl": "https://scontent.fblr1-1.fna.fbcdn.net/v/t31.0-8/17038928_1329600697105317_4214138079828744579_o.jpg?oh=dab1aa1d00023dec1726456626247074&oe=59C5F0CA"
-      },
-      "userReaction": {
-        "LOL": 0,
-        "HAHA": 0,
-        "CLAP": 0,
-        "WOW": 0,
-        "LIKE": 3
-      },   
-      "__v": 0,
-      "currentUserReaction": null
-    }
-  ],
-  "pageInfo": {
-    "nextPageUrl": "/v1/comments/5957cab07c280c374153bd6c?beforeTimeStamp=Wed Jul 05 2017 23:24:47 GMT+0530 (IST)",
-    "previousPageUrl": "/v1/comments/5957cab07c280c374153bd6c?afterTimeStamp=Wed Jul 05 2017 23:24:56 GMT+0530 (IST)"
-  },
-  "meta": {
-    "ts": "2017-07-08T14:57:19.492Z"
+    "__v": 0,
+    "currentUserReaction": "LOL"
   }
-}
