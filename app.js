@@ -72,6 +72,8 @@ app.delete('/v1/user-reaction', function(req, res, next) {
   res.send(JSON.stringify(userReactionDelete));
 });
 
+app.use(express.static('html'));
+
 var port = process.env.PORT || 3000;
 app.listen(port);
 console.log('Sample app is listening on port ' + port);
