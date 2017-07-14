@@ -5,6 +5,7 @@ var request = require('request');
 var comments = require('./json/comments.json');
 var comment = require('./json/comment.json');
 var feed = require('./json/feed.json');
+var login = require('./json/login.json');
 var userReactionPost = require('./json/userReactionPost.json');
 var userReactionDelete = require('./json/userReactionDelete.json');
 
@@ -49,6 +50,11 @@ app.get('/v1/feed', function(req, res, next) {
   // var userId = req.param.userId;
 
   res.send(JSON.stringify(feed));
+});
+
+app.get('/v1/login/callback', function(req, res, next) {
+  res.setHeader('Content-Type', 'application/json');
+  res.send(JSON.stringify(login));
 });
 
 app.post('/v1/user-reaction', function(req, res, next) {
