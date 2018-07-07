@@ -1,0 +1,31 @@
+{       
+    "id" : 1,
+        "title": "DLF The Crest",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "city": "gurgaon",
+        "locality": "DLF",
+        "country": "india",
+        "latitude": 35.4534,
+        "longitude": 53.8888,
+        "tags": "brand-new, gurgaon, 3bhk",
+        "type": "3bhk",
+        "availability": "available",
+        "images": ["https://is1-3.housingcdn.com/01c16c28/b6b71098a8c407ab7bf0bd3603a1b076/v0/fs/2_bhk_independent_floor-for-rent-sector_47-Gurgaon-kitchen.jpg",
+        "https://is1-3.housingcdn.com/01c16c28/3ea7a4fc501d5aac017611a7255ba5fe/v0/fs/2_bhk_independent_floor-for-rent-sector_47-Gurgaon-living_room.jpg",
+        "https://is1-2.housingcdn.com/01c16c28/24edbb16c208cfbac036bd3f95e53b1d/v0/fs/2_bhk_independent_floor-for-rent-sector_47-Gurgaon-bedroom.jpg",
+        "https://is1-3.housingcdn.com/01c16c28/16a37aab401e2cd421fbe3b287b8b532/v0/fs/3_bhk_independent_floor-for-rent-sector_27_gurgaon-Gurgaon-living_room.jpg"
+        ],
+        "floor": 11,
+        "areaSize": "18.2 K sq.ft",
+        "carpetSize": 2800,
+        "furnishingStatus": "fully furnished",
+        "UserId": 122,
+        "items": {
+            "age": 5,
+            "facing": "east",
+            "amenities": ["car parking"]
+        },
+        "rate": "4.59 Cr+",
+        "createdAt": 32342343,
+        "updatedAt": 23434333
+}
